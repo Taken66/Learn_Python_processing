@@ -115,6 +115,74 @@
 
 # for v in ["False", "0", "None", " ", "", 0, 0.0, -1]:
 #     print(f"{v!r:10} -> {bool(v)}")
-print("a\tb\nc".split())
+# print("a\tb\nc".split())
 
-print("a\tb\nc".split(' '))
+# print("a\tb\nc".split(' '))
+
+# names = ['Bob','Tom','alice','Jerry','Wendy','Smith']
+# # new_names = [name.upper()for name in names if len(name)>3]
+# # print(new_names)
+# # ['ALICE', 'JERRY', 'WENDY', 'SMITH']
+# #迭代式子
+# a = iter(names)
+# print(next(a))
+# print(next(a))
+# print(next(a))
+# print(next(a))
+
+
+# def test(*args):
+#     print(args)
+
+# test(1,2,3)
+# test([1,2,3])
+# test(*[1,2,3])
+
+# def test(func):
+#     def wrapper(*args):
+#         print("开始")
+#         x = func(*args)
+#         print("结束")
+#         return x
+#     return wrapper
+
+# @test
+# def func(*args):
+#     print("???",*args)
+# a= [1,2,3]
+# func(a)
+
+# import time
+
+# def timer(func):
+#     def wrapper(*args, **kwargs):
+#         start = time.time()
+#         result = func(*args, **kwargs)
+#         end = time.time()
+#         print(f"函数{func.__name__}耗时：{end-start:.4f}秒")
+#         return result
+#     return wrapper
+
+# @timer
+# def test(n):
+#     s = 0
+#     for i in range(n):
+#         s += i
+#     return s
+
+# print(test(1000000))
+# print(__file__)
+
+# import math
+# print(dir(math))
+import os
+
+print(os.getcwd())
+
+
+with open("E:/text.txt","r",encoding = "UTF-8") as f:
+    #f.write("我日了")
+    line = f.readlines()
+    print(f.tell)
+print(line)
+

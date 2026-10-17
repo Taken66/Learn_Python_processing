@@ -9,7 +9,3 @@
 import time
 myname = input("What is your name? \n")
 print(f"hello,{myname},now {time.strftime('%Y-%m-%d-%H-%M',time.localtime())}")
-
-
-
-

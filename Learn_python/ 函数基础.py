@@ -18,3 +18,9 @@ print(describe("张三",13,"南宁"))
 numbers = (1,2,3,4,5,6)
 
 print(stats(numbers))
+
+def fun(*args):
+    return (f"姓名：{args[0]}，年龄:{args[1]},来自:{args[2]}")
+args=["李三",10,"北京"]
+print(fun(*args))
+
