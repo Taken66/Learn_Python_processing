@@ -8,4 +8,14 @@
 # [ ] 能说出为什么不推荐用 global
 # [ ] 能说出 LEGB 规则的顺序
 # ---
+x  = 10 #全局
+def fun ():
+   y = 11 #局部
+   global x
+   x += 1
+   print(x)
+   print(y)
+fun()
+print(x)
+print(y) #(无法调用局部变量)
 
