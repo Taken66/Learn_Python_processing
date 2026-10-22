@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>29ddd989-0ba4-476b-8512-87df8ddbb8dd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>数据类型互转.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,9 +24,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="hello.py" />
     <Compile Include="Learn_python.py" />
-    <Compile Include="数据类型互转.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="CondaEnv|CondaEnv|pytorch" />
