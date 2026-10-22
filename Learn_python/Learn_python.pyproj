@@ -11,7 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>Learn_python</Name>
     <RootNamespace>Learn_python</RootNamespace>
-    <InterpreterId>CondaEnv|CondaEnv|pytorch</InterpreterId>
+    <InterpreterId>
+    </InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>

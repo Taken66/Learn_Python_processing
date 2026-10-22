@@ -16,6 +16,8 @@ class Student:
         self.score = score
     def __str__(self):
         return f"{self.name}:{self.score}分"
-T=Student("张三", 87)
-print(str(T))
+
+if __name__ == "__main__":
+    T=Student("张三", 87)
+    print(str(T))
 
