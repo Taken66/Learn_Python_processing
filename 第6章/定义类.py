@@ -16,8 +16,14 @@ class Student:
         self.score = score
     def __str__(self):
         return f"{self.name}:{self.score}分"
+    def is_pass(self):
+        if self.score>=60:
+            return "及格"
+        else:
+            return "不及格"
 
 if __name__ == "__main__":
     T=Student("张三", 87)
-    print(str(T))
+    print(T)
+    print(T.is_pass())
 

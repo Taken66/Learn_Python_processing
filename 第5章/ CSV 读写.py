@@ -29,11 +29,14 @@ a = [{"name" : "张三","age" : 25, "score" : 87},
 #     print(header)
 #     for row in reader:
 #         print(row["name"],row["age"],row["score"])
-
-with open("people.csv","r",encoding="utf-8",newline= "") as f :
+sum = 0
+with open("E:\VS_tools\Project\Learn_python\第5章\people.csv","r",encoding="utf-8",newline= "") as f :
     reader = csv.reader(f)
     header = next(reader) # next()读取第一行，就是表头
     print(header)
     # 剩下循环就是数据行
     for row in reader:
         print(row)
+        sum += int(row[1])
+print(sum)
+   
