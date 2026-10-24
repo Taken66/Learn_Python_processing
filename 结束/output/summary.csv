@@ -1,0 +1,13 @@
+group,value1,value2,note
+A,12.0,34.0,test1
+A,15.0,68.2,test2
+B,22.0,56.0,test3
+B,21.4,78.0,test4
+C,31.0,91.0,test5
+C,27.0,82.0,test6
+A,44.0,21.0,data2
+A,48.0,25.0,data2
+B,52.0,33.4,data2
+B,55.0,33.0,data2
+C,61.0,41.0,data2
+C,66.0,47.0,data2

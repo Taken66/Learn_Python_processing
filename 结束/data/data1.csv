@@ -1,0 +1,7 @@
+group,value1,value2,note
+A,12,34,test1
+A,15,,test2
+B,22,56,test3
+B,,78,test4
+C,31,91,test5
+C,27,82,test6
