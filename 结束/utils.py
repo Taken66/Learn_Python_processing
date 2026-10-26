@@ -36,11 +36,11 @@ def read():
            with open(fn,"r",encoding= "utf-8",newline="") as f:
                 Logg.info(f"正在读取文件{f.name}内容")
                 Logg.debug(f"========{f.name}========")
-            reader = csv.reader(f)
-            header = next(reader)
-            Logg.debug(header)
-            for i in reader :
-                Logg.debug(i)
+                reader = csv.reader(f)
+                header = next(reader)
+                Logg.debug(header)
+                for i in reader :
+                    Logg.debug(i)
                 Logg.debug("=========================")  
         
        except StopIteration :
